@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Your Page Title</title>
+</head>
+<body>
+
+<div class="container">
+    <div id="list">
+        <h1>List</h1>
+
+        <!-- List -->
+        <ul id="dynamic-list" class="list-group">
+            <!-- JavaScript will add items here -->
+        </ul>
+    </div>
+    <!-- Preferences Panel -->
+    <div id="preferences-panel" class="card">
+        <div class="card-body">
+            <h3 class="card-title">Preferences</h3>
+
+            <!-- Theme Selector -->
+            <div class="form-group">
+                <label for="themeSelector">Theme</label>
+                <select id="themeSelector" class="form-control">
+                    <option value="theme1">Theme 1</option>
+                    <option value="theme2">Theme 2</option>
+                    <option value="theme3">Theme 3</option>
+                </select>
+            </div>
+
+            <!-- List Style Selector -->
+            <div class="form-group">
+                <label for="listStyleSelector">Select List Style:</label>
+                <select id="listStyleSelector" class="form-control">
+                    <option value="style1">Style 1</option>
+                    <option value="style2">Style 2</option>
+                    <option value="style3">Style 3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
